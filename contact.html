@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/style/style.css">
+    <script src="https://kit.fontawesome.com/f2642a01b7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="start">
+                <h1>HOME</h1>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="end">
+                <!--Aweosme font icons-->
+                <a href="https://twitter.com/Hilly_Jay"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/Ethan-Hill"><i class="fab fa-github"></i></a>
+                <a href="mailto: ethanhilljay@outlook.com"><i class="far fa-envelope"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <form id="form" class="topBefore" action="https://formspree.io/xgendnvr" method="POST">
+            <h1 style="color: white; text-align: center; padding: 10px;">Contact Me</h1>
+                  <input id="name" type="text" name="name" placeholder="NAME">
+                  <input id="email" type="email" name="_replyto" placeholder="E-MAIL">
+                  <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+          <input id="submit" type="submit" value="SEND">
+          
+        </form>
+        <h1 id="status"></h1>
+    </section>
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>
